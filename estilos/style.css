@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;  
+    
+}
+
+header{
+
+    position: relative;
+    background: rgb(13, 15, 15);
+    height: 70px;
+    text-align: center;
+    color: rgb(253, 251, 251);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+    
+}
+
+body{
+    background: rgb(204, 219, 228);
+    
+}
+
+.fundo{
+    position: relative;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    top: 25%;
+    left:40%;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 3px;
+    color: white;
+    text-align: center;
+
+    
+}
+
+.botao{
+    height: 50px;
+    width: 50px;
+    font-size: 100%;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+
+}
+
+a:houver{
+    opacity: 1;
+}
+
+.botao:hover{
+    background: rgb(157, 213, 231);
+}
+
+#resultado{
+    background-color: white;
+    height: 30px;
+    width: 210px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 6px;
+    max-width: 25ch;
+    overflow: hidden;
+
+    
+}
+
+
+img.lado{
+    height: 32px;
+    width: 36px;
+    border-radius: 20%;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(8, 8, 8);
+   
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(22, 24, 23);
+    font-weight: bold;
+}
+
+footer{
+
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    width:60%;
+    margin: 10px;
+    width: auto;
+}
